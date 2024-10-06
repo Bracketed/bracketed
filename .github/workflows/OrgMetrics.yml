@@ -17,7 +17,6 @@ jobs:
           # Your GitHub token
           # The following scopes are required:
           #  - public_access (default scope)
-          #  - repo
           # The following additional scopes may be required:
           #  - read:org      (for organization related metrics)
           #  - read:user     (for user related data)
@@ -29,6 +28,7 @@ jobs:
           user: bracketed
           template: classic
           base: header, activity, community, repositories, metadata
+          base_indepth: yes
           config_display: large
           config_timezone: Europe/London
           config_twemoji: yes
@@ -38,12 +38,8 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_load: 300
           plugin_activity_visibility: all
-          plugin_calendar: yes
-          plugin_calendar_limit: 1
           plugin_introduction: yes
           plugin_introduction_title: yes
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_analysis_timeout_repositories: 7.5
@@ -67,10 +63,7 @@ jobs:
           plugin_stargazers_charts: yes
           plugin_stargazers_charts_type: classic
           plugin_stargazers_days: 14
-          plugin_traffic: yes
           plugin_tweets: yes
           plugin_tweets_attachments: yes
           plugin_tweets_limit: 2
-          plugin_tweets_user: teambracketed
-          repositories_forks: yes
-          users_ignored: 
+          plugin_tweets_user: .user.twitter
