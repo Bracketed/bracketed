@@ -39,6 +39,11 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_load: 300
           plugin_activity_visibility: all
+          plugin_code: yes
+          plugin_code_days: 3
+          plugin_code_lines: 12
+          plugin_code_load: 400
+          plugin_code_visibility: public
           plugin_introduction: yes
           plugin_introduction_title: yes
           plugin_languages: yes
@@ -53,10 +58,6 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_pagespeed: yes
-          plugin_pagespeed_detailed: yes
-          plugin_pagespeed_pwa: yes
-          plugin_pagespeed_url: https://www.bracketed.co.uk
           plugin_people: yes
           plugin_people_limit: 24
           plugin_people_size: 28
