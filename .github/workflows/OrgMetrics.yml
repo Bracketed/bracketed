@@ -52,8 +52,8 @@ jobs:
           plugin_people: yes
           plugin_people_limit: 24
           plugin_people_size: 28
-          plugin_people_thanks: ninjaninja140, thomasthebro1, AshleyGingell23
+          plugin_people_thanks: ninjaninja140
           plugin_people_types: followers, following
           plugin_repositories: yes
-          plugin_repositories_featured: Bracketed-Packages, Branding
+          plugin_repositories_featured: jova.js, node-logger, Bracketed-Packages, proxy
           plugin_repositories_order: featured, pinned, starred, random
